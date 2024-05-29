@@ -254,6 +254,5 @@ public class Cajero extends Empleado{
 			}
 		comprador.editarDineroActual(dineroActual, tarjetaCredito, transferenciaElectronica, efectivo, metodoPagoMap);
 		administrador.verificarDevolucion (comprador, pieza);
-
 	}
 }
